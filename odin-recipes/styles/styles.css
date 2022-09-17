@@ -11,10 +11,13 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
+}
+
+h4 {
+  font-family: 'Shadows Into Light', cursive;
 }
 
 h1 {
