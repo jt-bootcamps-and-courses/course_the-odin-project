@@ -1,6 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: #cfd8dc;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+p {
+  color: #0d47a1;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #cfd8dc;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+nav li a:active {
+  text-decoration: underline;
+  color: #0045ad;
+}
+
+nav a:hover {
+  color: #264d87;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+#title {
+  text-decoration: uppercase;
+  color: black;
 }
 
 img {
@@ -9,10 +71,7 @@ img {
   border-radius: 5px;
 }
 
-h1 {
-  text-align: center;
-}
-
+/* Recipe Cards */
 .card-container {
   display: flex;
   flex-direction: column;
@@ -26,4 +85,20 @@ h1 {
   text-align: center;
   align-items: center;
   flex: 1;
+}
+
+/* 
+  Extra small devices (phones, 600px and down) 
+*/
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
 }
