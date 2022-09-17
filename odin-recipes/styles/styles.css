@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  flex: 1;
+}
