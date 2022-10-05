@@ -1,6 +1,6 @@
 # Recipes Website Project
 
-View the [live demo]()
+View the [live demo](https://breakfast-recipe-website.netlify.app/)
 
 A website showcasing a few of my favorite carb-loaded breakfast recipes.
 
